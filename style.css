@@ -1,15 +1,12 @@
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* General body setup */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-/* HERO section */
-.hero-section {
+.home-section {
   height: 100vh;
   background: linear-gradient(135deg, #6c63ff, #3f3d56);
   display: flex;
@@ -19,24 +16,22 @@ body {
   text-align: center;
 }
 
-/* NAVBAR hover effect */
 .nav-link:hover {
-  color: #ffc107 !important;
+  color: #ffc107;
 }
 
-/* PROJECT CARDS hover effect */
 .project-card {
   transition: all 0.3s ease;
 }
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
-/* GitHub Button Styling */
 .btn-dark:hover {
-  background-color: #1a1a1a !important;
-  border-color: #1a1a1a !important;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
   transform: scale(1.05);
   transition: all 0.2s ease;
 }
@@ -45,8 +40,6 @@ body {
   margin-right: 5px;
 }
 
-
-/* FOOTER */
 footer {
   background: #111;
 }
@@ -58,7 +51,7 @@ footer {
 
 #education .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 #resume {
@@ -68,4 +61,7 @@ footer {
 #resume .btn {
   border-radius: 25px;
   padding: 12px 30px;
+}
+.list-group-item:hover {
+  cursor: pointer;
 }
